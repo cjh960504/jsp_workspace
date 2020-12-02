@@ -1,0 +1,13 @@
+notice 폴더 ---> 웹사이트로 등록되는 시점은? 배포(Deployment)할 때 웹사이트가 된다!!
+		大형 웹 어플리케이션
+
+자바의 import하는 과정에서는 패키지 경로에는 환경변수에 등록되어있는 classpath를 참조한다
+예를 들면 import = (C:\jsp_workspace\notice\WEB-INF\classes\)+ "pet\Dog"
+
+	JavaSE   			JavaEE
+클래스    classpath 			WEB-INF/classes
+	:클래스패스에 등록 	:굳이 클래스패스에 등록하지 않아도 
+				WEB-INF에 넣어주면 상관X
+-> 기준의 차이
+
+프로그램을 완성한 후 리팩토링을 통해 소스를 줄여나가 유지보스를 쉽게 만들자!!
